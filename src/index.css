@@ -1,5 +1,25 @@
-app{
-    display:flex;
+body{
+    padding: 50px;
+    background-color: #EFFBF8;
+    font-family: sans-serif;
+}
+
+#root{
+    display: flex;
     justify-content: center;
-    
+}
+
+.input{
+    border: none;
+    float: left;
+    height: 30px;
+    width: 300px;
+}
+
+.addBtn {
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    float: right;
+    height: 30px;
 }
