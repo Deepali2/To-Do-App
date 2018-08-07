@@ -32,12 +32,16 @@ class App extends React.Component {
 
     render() {
       return(
-        <div className='app'> 
-          <h3>To-Do</h3>
-            <ToDoInput addTodo={this.addTodo} todoText='' />
-            <ul>{this.state.todos.map((todo) => 
-              <ToDoItem todo={todo} id={todo.id} key={todo.id} removeTodo={this.removeToDo}/>)}
-            </ul>
+        <div> 
+          <h3>React To-Do</h3>
+          <ToDoInput addTodo={this.addTodo} todoText='' />
+          <div className='space'>
+          </div>    
+            <div>
+              <ul>{this.state.todos.map((todo) => 
+                <ToDoItem todo={todo} id={todo.id} key={todo.id} removeTodo={this.removeToDo}/>)}
+             </ul>
+            </div>
         </div>
       );
     }

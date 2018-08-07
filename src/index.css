@@ -6,7 +6,7 @@ body{
 
 #root{
     display: flex;
-    justify-content: center;
+    justify-content: center;   
 }
 
 .input{
@@ -23,3 +23,23 @@ body{
     float: right;
     height: 30px;
 }
+
+.removeBtn{
+    width: 30px;
+    border: 2px solid rgba(73, 204, 249, 0.75);    
+}
+ 
+
+  h3 {
+      text-align: center
+  }
+
+  ul{
+      list-style-type: none
+  }
+
+  .space{
+      height: 50px;
+  }
+
+
