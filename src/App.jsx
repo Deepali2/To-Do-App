@@ -37,11 +37,9 @@ class App extends React.Component {
           <ToDoInput addTodo={this.addTodo} todoText='' />
           <div className='space'>
           </div>    
-            <div>
-              <ul>{this.state.todos.map((todo) => 
-                <ToDoItem todo={todo} id={todo.id} key={todo.id} removeTodo={this.removeToDo}/>)}
-             </ul>
-            </div>
+            <ul>{this.state.todos.map((todo) => 
+              <ToDoItem todo={todo} id={todo.id} key={todo.id} removeTodo={this.removeToDo}/>)}
+            </ul>
         </div>
       );
     }

@@ -16,6 +16,10 @@ body{
     width: 300px;
 }
 
+.input:focus{
+    background-color: yellow;
+}
+
 .addBtn {
     border-top: none;
     border-right: none;
@@ -26,20 +30,31 @@ body{
 
 .removeBtn{
     width: 30px;
-    border: 2px solid rgba(73, 204, 249, 0.75);    
+    border: 2px solid rgba(73, 204, 249, 0.75); 
+    float: right;   
 }
  
 
   h3 {
-      text-align: center
+      text-align: center;
   }
 
   ul{
-      list-style-type: none
+      list-style-type: none;
+     
   }
 
   .space{
       height: 50px;
+  }
+
+  li{
+      background-color: white;
+      width: 100%;
+      margin-bottom: 20px;
+      border: 1px solid #efefef;
+      
+    
   }
 
 
